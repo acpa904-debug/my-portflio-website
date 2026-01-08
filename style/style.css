@@ -193,3 +193,60 @@ padding-top: 207px;
     color: #575757;
     margin-bottom: 30px;
   }
+
+  /* resume desgine */
+  #resume{
+    padding-top:10px ;
+    
+  }
+
+  .resume_container hr{
+    margin: 30px 0;
+  }
+
+    #resume .resume_container{
+      width: 118%;
+      max-width: 1140px;
+      margin: 113px auto 0;
+      display: flex;
+      gap: 24px;
+      
+    }
+    .resume_container .section_titel{
+      font-size: 30px;
+      font-weight: bold;
+      color: #474747;
+      margin-bottom: 30px;
+    }
+
+    .resume_card{
+      max-width: 511px;
+      margin-right: 71px;
+    }
+
+  .resume_card .card_titel{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+
+ }
+
+  .resume_card .card_info{
+    font-size: 20px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 20px;
+
+ }
+
+ .resume_card .card_text{
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+  margin-bottom: 30px;
+ }
+
+
+
+
