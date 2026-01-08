@@ -22,6 +22,7 @@
 .section_heading{
   max-width: 827px;
   text-align: center;
+  margin: 0 auto;
 }
 
 .section_heading h2{
@@ -34,6 +35,7 @@
   font-size: 18px;
   color: #474747;
   margin-bottom: 18px;
+
 
 }
 
@@ -148,3 +150,46 @@ padding-top: 207px;
   font-weight: bold;
   
 }
+
+#skilled{
+  padding: 130px;
+}
+#skilled .skilled_container{
+  width: 118%;
+  max-width: 1140px;
+  margin: 0 auto;
+
+}
+
+ #skilled .skilled_container .skilled_box{
+  display: flex;
+  gap: 24px;
+
+ }
+ .skilled_box .skilled_card{
+  padding: 30px;
+  /* border: 1px solid green; */
+  box-shadow: 0 6px 50px 0 #0000004c;
+  max-width: 267px;
+  margin-top: 30px;
+ }
+
+ .skilled_card img{
+  max-width: 44px;
+  margin-bottom: 30px;
+
+ }
+
+  .skilled_card h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+  }
+
+  .skilled_card{
+    font-size: 16;
+    line-height: 28px;
+    color: #575757;
+    margin-bottom: 30px;
+  }
