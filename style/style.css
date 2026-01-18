@@ -39,12 +39,16 @@
 
 }
 
+.text_aline{
+  text-align: center;
+}
+
 /* main style */
 
 header{
     background-color: #ebcdb7;
     background-image: url(../images/developer.png),url(../images/header_bg.png);
-    background-position: top left,bottom right;
+    background-position: 23px 38px,bottom right;
     background-repeat: no-repeat;
     
     padding-top: 50px;
@@ -246,6 +250,60 @@ padding-top: 207px;
   color: #757575;
   margin-bottom: 30px;
  }
+
+ footer{
+  margin-top:113px ;
+  background-color: #FFF8F3;
+  padding: 130px 0;
+ }
+.footer_container{
+  width: 118%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 116px;
+  
+}
+
+.footer_container .social{
+  max-width: 562px;
+
+}
+.footer_container h2{
+  color: #181818;
+  font-size: 35px;
+  margin-bottom: 20px;
+
+}
+
+.footer_container .social p{
+font-size: 16px;
+line-height: 28px;
+margin-bottom: 30px;
+}
+
+.footer_container form input[type="text"],
+.footer_container form textarea{
+  width: 461px;
+  padding: 18px 31px;
+  margin-bottom: 24px;
+  border-radius: 5px;
+  border: none;
+  color: #757575;
+}
+.submit{
+  background-color: #FD6E0A ;
+  border: none;
+  padding: 18px 35px;
+   font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+
+
 
 
 
